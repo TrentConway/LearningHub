@@ -1,7 +1,10 @@
 // First golang project
 // BASIC GO OPERATIONS 
 
+<<<<<<< HEAD
 // from tutorial: https://www.youtube.com/watch?v=C8LgvuEBraI
+=======
+>>>>>>> 7c6cc76bd7601ba70b991ee5da5ba6e09014f4e1
 
 // executable commands must always include main package
 package main
@@ -80,6 +83,10 @@ type person struct {
 	name string
 	age int
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7c6cc76bd7601ba70b991ee5da5ba6e09014f4e1
 func personFunc() {
 	p := person{name:"trent", age: 24}
 	fmt.Println(p.age)
@@ -95,13 +102,20 @@ func point () {
 	fmt.Println(i)
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7c6cc76bd7601ba70b991ee5da5ba6e09014f4e1
 // pass in address
 func inc(x *int) {
 	// dereference address
 	*x++
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c6cc76bd7601ba70b991ee5da5ba6e09014f4e1
 func main() {
 	hello()
 	sum()
