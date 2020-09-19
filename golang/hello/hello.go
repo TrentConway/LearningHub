@@ -1,6 +1,7 @@
 // First golang project
 // BASIC GO OPERATIONS 
 
+// from tutorial: https://www.youtube.com/watch?v=C8LgvuEBraI
 
 // executable commands must always include main package
 package main
@@ -79,7 +80,6 @@ type person struct {
 	name string
 	age int
 }
-
 func personFunc() {
 	p := person{name:"trent", age: 24}
 	fmt.Println(p.age)
@@ -95,12 +95,12 @@ func point () {
 	fmt.Println(i)
 
 }
-
 // pass in address
 func inc(x *int) {
 	// dereference address
 	*x++
 }
+
 
 func main() {
 	hello()
